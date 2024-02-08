@@ -16,7 +16,7 @@ const Profile = () => {
                 <ProfilePosts/>
                 <ProfilePosts/>
             </div>
-            <div className="flex justify-start md:justify-end items-start md:w-[30%] w-full md:items-end">
+            <div className="md:sticky md:top-16 flex justify-start md:justify-end items-start md:w-[30%] w-full md:items-end">
                 <div className="flex flex-col space-y-4 items-start">
                     <h1 className="text-xl font-bold mb-4">Profile</h1>
                     <input className="border-2 outline-0 border-black px-4 py-2 text-gray-500" placeholder="Your username" type="text"/>
