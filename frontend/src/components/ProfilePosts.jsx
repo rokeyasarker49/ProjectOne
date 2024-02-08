@@ -1,6 +1,6 @@
 
 
-const HomePosts = () => {
+const ProfilePosts = () => {
   return (
     <div className="w-full flex mt-8 space-x-4">
       {/* left */}
@@ -27,4 +27,4 @@ const HomePosts = () => {
   )
 }
 
-export default HomePosts
+export default ProfilePosts
